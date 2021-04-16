@@ -1,0 +1,110 @@
+body {
+    background-image: linear-gradient(rgba(40, 72, 179, 0.899), rgb(0, 0, 0));
+    background-repeat: no-repeat;
+    background-size: 2000px 1500px;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.title {
+    position: fixed;
+    left: 41%;
+    top: 5%;
+}
+
+.box {
+    border: 3px solid black;
+    border-top: 5px solid black;
+    border-radius: 15px;
+    position: fixed;
+    left: 33%;
+    top: 20%;
+    background: white;
+}
+
+.cust-nav {
+    border-bottom: 3px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding: 7px 7px;
+    background: rgba(40, 72, 179, 0.899);
+    color: white;
+}
+
+.nav-click-date {
+    padding: 10px 15px;
+    text-align: left;
+}
+
+.nav-click-name {
+    padding: 10px 15px;
+    text-align: right;
+    font-style: italic;
+}
+
+.cust-body {
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.cust-footer {
+    padding: 10px 5px 10px 5px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+#footer-title {
+    padding: 7px 5px 20px 5px;
+    display: none;
+    font-style: italic;
+}
+
+#reminderInput {
+    display: none;
+    border: none;
+    border-bottom: 2px solid black;
+    width: 75%;
+    outline: none;
+}
+
+#addNotes {
+    background: none;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 10px;
+    padding: 1.5px 17px 1.5px 17px;
+    letter-spacing: 1px;
+    outline: none;
+}
+
+#addNotes:hover {
+    background: rgba(40, 72, 179, 0.899);
+    color: white;
+    border: 1px solid rgb(114, 114, 114);
+}
+
+#postNote {
+    display: none;
+    background: none;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-left: 10px;
+    outline: none;
+}
+
+#postNote:hover {
+    background: rgba(40, 72, 179, 0.899);
+    color: white;
+    border: 1px solid rgb(114, 114, 114);
+}
+
+.completed {
+    color: black;
+}
+
+.completed:hover {
+    text-decoration: line-through;
+}
